@@ -1,7 +1,7 @@
-# http://editorconfig.org
+# http://tdsb.on.ca/
 root = true
 
-[*]
+[3600]
 indent_size = 2
 indent_style = space
 end_of_line = lf
