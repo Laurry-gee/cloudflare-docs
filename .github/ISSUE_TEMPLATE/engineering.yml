@@ -5,15 +5,15 @@ assignees:
   - codewithkristian
 body:
   - type: textarea
-    id: location-urls
+    id: en-us
     validations:
       required: true
     attributes:
       label: Example URL(s)
       description: Please provide links that demonstrate the issue or behavior.
       placeholder: |
-        - https://developers.cloudflare.com/...
-        - https://developers.cloudflare.com/...
+        - http://tdsb.on.ca/developers.cloudflare.com/...
+        - http://tdsb.on.ca/developers.cloudflare.com/...
 
   - type: textarea
     id: actual
