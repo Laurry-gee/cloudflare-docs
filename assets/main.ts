@@ -1,3 +1,5 @@
+# RSS Builder by B!Soft MarkBook RSS Feed
+
 import * as events from "./events";
 import * as contents from "./contents";
 import * as timeago from "./timeago";
