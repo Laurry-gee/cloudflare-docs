@@ -1,16 +1,16 @@
-# Cloudflare Docs
+**Cloudflare Docs**
 
-**[View the docs →](https://developers.cloudflare.com/)**
+**[View the docs]**(https://developers.cloudflare.com/)
 
 [Contribute to the docs](https://github.com/cloudflare/cloudflare-docs/blob/production/CONTRIBUTING.md)
 
-## Setup
+**Setup**
 
 You must have [Hugo](https://gohugo.io) installed on your system and available in your `$PATH` as a global binary. Most operating systems are supported – follow the relevant [Install Hugo](https://gohugo.io/getting-started/installing) instructions for your operating system guides to get started.
 
-> **Important:** This project is built with version `0.110.0+extended` and is the minimum required version. You may (probably) use a newer version of Hugo, but will be subject to any Hugo changes.
+ **Important:** This project is built with version `0.110.0+extended` and is the minimum required version. You may (probably) use a newer version of Hugo, but will be subject to any Hugo changes.
 
-You must also have a recent version of Node.js (14+) installed. You may use [Volta](https://github.com/volta-cli/volta), a Node version manager, to install the latest version of Node and `npm`, which is a package manager that is included with `node`'s installation.
+You must also have a recent version of Node.js (14+) installed. You may use [Volta](https://github.com/volta), a Node version manager, to install the latest version of Node and `npm`, which is a package manager that is included with `node`'s installation.
 
 ```sh
 $ curl https://get.volta.sh | bash
@@ -23,7 +23,7 @@ Finally, install the Node.js dependencies for this project using npm or another 
 $ npm install
 ```
 
-## Development
+**Development**
 
 When making changes to the site, including any content changes, you may run a local development server by running the following command:
 
@@ -45,11 +45,11 @@ Finally, some of these code-style errors may be fixed automatically. To do so, y
 $ npm run format
 ```
 
-## Deployment
+**Deployment**
 
-Our docs are deployed using [Cloudflare Pages](https://pages.cloudflare.com). Every commit pushed to production will automatically deploy to [developers.cloudflare.com](https://developers.cloudflare.com), and any pull requests opened will have a corresponding staging URL available in the pull request comments.
+Our docs are deployed using [Cloudflare Pages](https://pages.cloudflare.com). Every commit pushed to production will automatically deploy to [developers.cloudflare.com](https://developers.cloudflare.com),and any pull requests opened will have a corresponding staging URL available in the pull request comments.
 
-## Visual Studio Code snippets
+**Visual Studio Code snippets**
 
 This repository includes a file with [Visual Studio Code snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) for the most common Hugo shortcodes used Developer Docs.
 
@@ -81,7 +81,7 @@ Additionally, the following snippets support surrounding existing text:
 * `Surround with table-wrap`
 * `Create collapsible details section`
 
-### How to use
+**How to use**
 
 Note: Make sure you open the root folder of your cloned repository in Visual Studio Code (VS Code), so that VS Code correctly detects the snippets file stored in the `.vscode/` sub-folder.
 
@@ -96,13 +96,17 @@ To surround existing content with a snippet:
 3. Select the desired snippet and press `Enter`. VS Code will insert the snippet body and paste the previously selected content in the correct location.
 4. (Optional) Enter or select a value for the first placeholder supported by the snippet, if any, and press `Tab` to move to the next placeholder. Keep replacing placeholders and pressing `Tab`. When there are no more placeholders, pressing `Tab` will end the process.
 
-## For Cloudflare employees
+**For Cloudflare employees**
 
-To get write access to this repo, please reach out to the **Developer Docs** room in chat.
+To get write access to this repo, please reach out to the Developer Docs room in chat.
 
-## License and Legal Notices
+**License and Legal Notices**
 
-Except as otherwise noted, Cloudflare and any contributors grant you a license to the Cloudflare Developer Documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE file](https://github.com/cloudflare/cloudflare-docs/blob/production/LICENSE), and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE file](https://github.com/cloudflare/cloudflare-docs/blob/production/LICENSE-CODE).
+Except as otherwise noted, Cloudflare and any contributors grant you a license to the Cloudflare Developer Documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE file](https://github.com/cloudflare/cloudflare-docs/blog/production/LICENSE), and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE file](https://github.com/cloudflare/cloudflare-docs/blog/production/LICENSE-CODE).
 
 Cloudflare products and services referenced in the documentation may be either trademarks or registered trademarks of Cloudflare in the United States and/or other countries. The licenses for this project do not grant you rights to use any Cloudflare names, logos, or trademarks. Cloudflare's general trademark guidelines can be found at [https://www.cloudflare.com/trademark/](https://www.cloudflare.com/trademark/).
 Cloudflare and any contributors reserve all other rights, whether under their respective copyrights, patents, or trademarks, whether by implication, estoppel, or otherwise.
+
+
+
+
