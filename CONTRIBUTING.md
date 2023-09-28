@@ -1,6 +1,6 @@
 # Contributing to Cloudflare's Documentation
 
-## Issues
+**Issues**
 
 [Open an issue](https://github.com/cloudflare/cloudflare-docs/issues/new/choose) when something in the content is incorrect, out-of-date, or if the documentation doesn’t match the actual functionality. The items below are covered in our issue template.
 
@@ -14,11 +14,11 @@
   - Any other details or screenshots you think are relevant.
 - Issue Labels
 
-## Pull Requests
+**Pull Requests**
 
 Before proposing significant changes, open an issue so that we can discuss your approach first. Only members of the Cloudflare organization can open a pull request on the repository, and they should follow the same guidance on opening an issue for significant changes. If you’re not part of the Cloudflare organization but want to contribute, fork the repository and then create a pull request.
 
-### Pull Request Guidelines
+**Pull Request Guidelines**
 
 - Commits and commit messages
   - Use smaller commits for your work to make it easier to review. In your commit messages, be specific about what you changed in the files.
